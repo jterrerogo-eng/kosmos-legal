@@ -1,0 +1,464 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Política de Privacidad — Kosmos</title>
+<style>
+  :root{
+    --bg:#ffffff; --fg:#14121a; --muted:#5b5668; --line:#e6e3ec;
+    --accent:#6c4df6; --card:#faf9fd;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{ --bg:#0e0c14; --fg:#edeaf4; --muted:#9a93ab; --line:#262232;
+           --accent:#9d85ff; --card:#15121d; }
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0; background:var(--bg); color:var(--fg);
+    font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    -webkit-text-size-adjust:100%;
+  }
+  .wrap{max-width:760px; margin:0 auto; padding:48px 20px 96px}
+  .brand{font-size:13px; letter-spacing:.18em; text-transform:uppercase;
+         color:var(--accent); font-weight:700; margin-bottom:10px}
+  h1{font-size:30px; line-height:1.2; margin:0 0 6px; letter-spacing:-.02em}
+  .meta{color:var(--muted); font-size:14px; margin:0 0 36px}
+  h2{font-size:20px; margin:40px 0 10px; letter-spacing:-.01em; padding-top:8px;
+     border-top:1px solid var(--line)}
+  h3{font-size:16px; margin:22px 0 6px}
+  ul{padding-left:20px; margin:10px 0}
+  li{margin:6px 0}
+  .box{background:var(--card); border:1px solid var(--line); border-radius:12px;
+       padding:16px 18px; margin:18px 0}
+  .box p:first-child{margin-top:0} .box p:last-child{margin-bottom:0}
+  strong{font-weight:650}
+  a{color:var(--accent)}
+  table{width:100%; border-collapse:collapse; margin:14px 0; font-size:15px;
+        display:block; overflow-x:auto}
+  th,td{text-align:left; padding:10px 12px; border-bottom:1px solid var(--line);
+        vertical-align:top}
+  th{font-size:13px; text-transform:uppercase; letter-spacing:.06em;
+     color:var(--muted); font-weight:600}
+  .lang{margin-top:72px}
+  footer{margin-top:56px; padding-top:20px; border-top:1px solid var(--line);
+         color:var(--muted); font-size:14px}
+  @media (max-width:520px){ .wrap{padding:32px 16px 72px} h1{font-size:25px} }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="brand">Kosmos</div>
+  <h1>Política de Privacidad</h1>
+  <p class="meta">Última actualización: 2 de octubre de 2026 · Versión 1.0</p>
+
+  <p>Kosmos es una aplicación para organizar la vida diaria en pareja: tareas, calendario,
+  recetas, memorias, finanzas personales y hábitos. Esta política explica qué datos
+  recogemos, para qué los usamos, con quién los compartimos y cómo puedes borrarlos.</p>
+
+  <div class="box">
+    <p><strong>Lo esencial, en tres líneas.</strong></p>
+    <p>No vendemos tus datos. No mostramos publicidad. No te rastreamos en otras apps ni
+    sitios web, y no usamos ninguna herramienta de analítica. Puedes borrar tu cuenta y
+    todo su contenido desde dentro de la app, sin pedírselo a nadie.</p>
+  </div>
+
+  <h2>1. Quién es responsable de tus datos</h2>
+  <p>El responsable del tratamiento es <strong>Carmen Gómez</strong>, titular de la cuenta
+  de desarrollador bajo la que se publica Kosmos, con domicilio en República Dominicana.</p>
+  <p>Para cualquier asunto relacionado con tu privacidad, escribe a
+  <strong>kosmos.app.rd@gmail.com</strong>. Respondemos en un plazo máximo de 30 días.</p>
+
+  <h2>2. Qué datos recogemos</h2>
+
+  <h3>2.1 Datos de tu cuenta</h3>
+  <ul>
+    <li><strong>Correo electrónico</strong> — para identificarte e iniciar sesión.</li>
+    <li><strong>Contraseña</strong> — nunca la vemos. La gestiona y cifra nuestro proveedor
+      de autenticación (Supabase).</li>
+    <li><strong>Nombre visible y foto de perfil</strong> — opcionales, los pones tú.</li>
+  </ul>
+
+  <h3>2.2 El contenido que tú creas</h3>
+  <p>Todo esto lo escribes tú dentro de la app. Nada se recoge de forma automática:</p>
+  <ul>
+    <li>Tareas, eventos de calendario y recordatorios.</li>
+    <li>Notas y anotaciones, incluidas las dictadas por voz.</li>
+    <li>Recetas, ingredientes y listas de compra.</li>
+    <li>Fotos, memorias, álbumes y los lugares que asocias a ellos.</li>
+    <li>Registros de rutinas: gimnasio, estudio, cuidado personal, biblioteca.</li>
+    <li>Ideas de negocio, proyectos y las conversaciones que tienes con el asistente.</li>
+    <li>Direcciones de texto que escribas en las diligencias del módulo de equipo.</li>
+  </ul>
+
+  <h3>2.3 Datos financieros</h3>
+  <p>Kosmos incluye un módulo de finanzas personales donde puedes anotar gastos,
+  presupuestos y pagos fijos. <strong>Estos datos los introduces tú manualmente.</strong>
+  Kosmos <strong>no</strong> se conecta a tu banco, <strong>no</strong> lee tus cuentas
+  bancarias, <strong>no</strong> accede a tus tarjetas y <strong>no</strong> ejecuta pagos.</p>
+
+  <h3>2.4 Cámara, galería y micrófono</h3>
+  <p>Kosmos pide acceso a tu <strong>cámara y galería</strong> únicamente cuando tú eliges
+  añadir una foto (perfil, memorias, recetas, productos, biblioteca, progreso físico), y a
+  tu <strong>micrófono</strong> únicamente mientras mantienes activo el dictado por voz. No
+  accedemos a ninguno de los dos en segundo plano ni sin tu acción directa.</p>
+
+  <h3>2.5 Datos compartidos con tu pareja</h3>
+  <p>Kosmos está diseñado para usarse de a dos. Si conectas tu cuenta con la de otra
+  persona, <strong>esa persona puede ver, editar y eliminar el contenido compartido</strong>
+  (tareas, calendario, memorias, fotos, finanzas y recetas del espacio común). Esto es
+  intencional y es el propósito central de la app. Puedes desvincular la conexión en
+  cualquier momento desde tu perfil.</p>
+
+  <h3>2.6 Datos técnicos</h3>
+  <ul>
+    <li><strong>Identificador de usuario</strong> y fechas de creación y modificación de
+      tus registros.</li>
+    <li><strong>Tus preferencias de notificación</strong> — qué categorías de aviso quieres
+      recibir.</li>
+  </ul>
+
+  <div class="box">
+    <p><strong>Las notificaciones de Kosmos son locales.</strong> Se programan y se
+    almacenan en tu propio teléfono. Kosmos <strong>no</strong> opera un servidor de
+    notificaciones push, <strong>no</strong> guarda ningún identificador de tu dispositivo,
+    y el contenido de los avisos (el título de una tarea, un pago que vence) nunca sale de
+    tu teléfono.</p>
+  </div>
+
+  <p>Kosmos <strong>no</strong> recoge tu ubicación —ni en primer ni en segundo plano—,
+  <strong>no</strong> accede a tus contactos, <strong>no</strong> lee la agenda del sistema,
+  <strong>no</strong> utiliza identificadores publicitarios y <strong>no</strong> ejecuta
+  procesos en segundo plano.</p>
+
+  <h2>3. Para qué usamos tus datos</h2>
+  <table>
+    <tr><th>Dato</th><th>Finalidad</th><th>Base legal</th></tr>
+    <tr><td>Correo y contraseña</td><td>Crear tu cuenta y permitirte iniciar sesión</td><td>Ejecución del servicio</td></tr>
+    <tr><td>Contenido que creas</td><td>Mostrártelo, sincronizarlo entre tus dispositivos y compartirlo con tu pareja</td><td>Ejecución del servicio</td></tr>
+    <tr><td>Texto y audio enviados al asistente</td><td>Generar respuestas, transcribir y analizar lo que le pides</td><td>Tu consentimiento explícito</td></tr>
+    <tr><td>Preferencias de notificación</td><td>Programar en tu teléfono los avisos que configuraste</td><td>Tu consentimiento</td></tr>
+  </table>
+  <p>No usamos tus datos para crear perfiles publicitarios, para venderlos a terceros ni
+  para entrenar modelos de inteligencia artificial propios.</p>
+
+  <h2>4. Con quién compartimos tus datos</h2>
+
+  <h3>4.1 Supabase Inc. — alojamiento y autenticación</h3>
+  <p>Toda tu cuenta y todo tu contenido (incluidas las fotos) se almacenan en la
+  infraestructura de Supabase, que actúa como encargado del tratamiento por cuenta nuestra.
+  Política de privacidad: <a href="https://supabase.com/privacy">supabase.com/privacy</a>.</p>
+
+  <h3>4.2 OpenAI, L.L.C. — inteligencia artificial de terceros</h3>
+  <div class="box">
+    <p><strong>Esto requiere tu permiso explícito.</strong> Kosmos no envía absolutamente
+    nada a OpenAI hasta que tú aceptas expresamente dentro de la app. Si no aceptas, las
+    funciones de asistente y dictado quedan desactivadas y el resto de Kosmos funciona con
+    normalidad.</p>
+  </div>
+
+  <p>Cuando aceptas, se envía a los servidores de OpenAI únicamente lo siguiente, y solo en
+  el momento en que usas cada función:</p>
+
+  <table>
+    <tr><th>Función</th><th>Qué se envía exactamente</th></tr>
+    <tr>
+      <td><strong>Chat con el asistente</strong></td>
+      <td>Tu nombre visible (no tu correo), la fecha de hoy, hasta 5 notas que tú
+        marcaste para que Kosmos recordara, los últimos 10 mensajes de esa conversación,
+        y el mensaje que acabas de escribir.</td>
+    </tr>
+    <tr>
+      <td><strong>Dictado por voz</strong></td>
+      <td>Únicamente el archivo de audio que acabas de grabar, para transcribirlo. Nada
+        más: ni tu nombre, ni tu correo, ni tu historial.</td>
+    </tr>
+    <tr>
+      <td><strong>Organizar un texto de Biblioteca</strong></td>
+      <td>Únicamente el fragmento de texto que seleccionaste y la instrucción que
+        escribiste. Sin tu nombre ni tu correo.</td>
+    </tr>
+    <tr>
+      <td><strong>Análisis de Estudio</strong></td>
+      <td>El nombre de la materia, el tiempo total registrado y hasta 12 notas de sesión
+        de esa materia. Sin tu nombre ni tu correo.</td>
+    </tr>
+  </table>
+
+  <p><strong>Qué no se envía nunca:</strong> tu correo electrónico, tu contraseña, tus
+  fotos, tus memorias, tus registros financieros, tu calendario, ni el contenido de los
+  módulos que no estés usando con el asistente en ese momento. Kosmos no vuelca tu base de
+  datos al asistente.</p>
+
+  <p><strong>Sobre los datos de tu pareja:</strong> no se envían de forma automática. Solo
+  pueden llegar a OpenAI si tú los escribes o los dictas tú mismo en una conversación con
+  el asistente, o si ya aparecen en los últimos 10 mensajes de esa conversación o en las
+  notas que pediste recordar.</p>
+
+  <p>OpenAI procesa estos datos a través de su API comercial. Según las condiciones de
+  OpenAI para la API, los datos enviados por esta vía no se utilizan para entrenar sus
+  modelos, y se conservan por un periodo limitado únicamente con fines de detección de
+  abuso antes de ser eliminados. Política de privacidad:
+  <a href="https://openai.com/policies/privacy-policy">openai.com/policies/privacy-policy</a>.</p>
+
+  <div class="box">
+    <p><strong>Cómo retirar este permiso en cualquier momento:</strong> abre
+    <strong>Perfil → Hablar con Kosmos</strong> y pulsa <strong>«No activar»</strong>. A
+    partir de ese momento Kosmos deja de enviar cualquier dato a OpenAI y las funciones de
+    asistente y dictado quedan desactivadas. El resto de la app sigue funcionando y no
+    pierdes nada de tu contenido.</p>
+  </div>
+
+  <h3>4.3 Google — solo si pulsas «Trazar ruta»</h3>
+  <p>El módulo de equipo incluye un botón para trazar la ruta de unas diligencias. Si lo
+  pulsas, tu teléfono abre Google Maps y le pasa <strong>las direcciones en texto que tú
+  escribiste</strong> en esas diligencias. Google recibe esas direcciones en ese momento,
+  sujeto a sus propias políticas. Kosmos no envía tu ubicación GPS, ni tu identidad, ni
+  ningún otro dato, y no ocurre nada si no pulsas ese botón.</p>
+
+  <h3>4.4 Apple Inc.</h3>
+  <p>La distribución y actualización de la app se realizan a través de la App Store,
+  conforme a las políticas de Apple.</p>
+
+  <h3>4.5 Lo que no hacemos</h3>
+  <p>Kosmos <strong>no integra ninguna herramienta de analítica, de medición de uso, de
+  reporte de fallos ni de publicidad</strong>. No usamos Google Analytics, Firebase,
+  Facebook SDK, Amplitude, Segment, Sentry ni equivalentes. No compartimos tus datos con
+  redes publicitarias, corredores de datos, aseguradoras, empleadores ni entidades
+  financieras. No vendemos ni alquilamos datos personales bajo ninguna circunstancia.</p>
+
+  <h2>5. Cuánto tiempo conservamos tus datos</h2>
+  <p>Conservamos tu información mientras tu cuenta exista. No aplicamos borrado automático
+  por inactividad: tu contenido es tuyo y permanece hasta que tú decidas eliminarlo.</p>
+
+  <h2>6. Cómo borrar tu cuenta y todos tus datos</h2>
+  <div class="box">
+    <p>Dentro de la app: <strong>Perfil → Borrar cuenta</strong>. Se te pedirá confirmar tu
+    contraseña. La eliminación es inmediata, definitiva y no requiere contactar con nadie.</p>
+  </div>
+  <p>Al borrar tu cuenta se elimina de forma permanente:</p>
+  <ul>
+    <li>Tu perfil, tu correo y tus credenciales de acceso.</li>
+    <li>Todo el contenido que creaste: tareas, eventos, notas, recetas, finanzas,
+      memorias, proyectos y conversaciones.</li>
+    <li>Todas tus fotos y archivos almacenados.</li>
+    <li>Tu vínculo de pareja, si existía.</li>
+  </ul>
+  <p>Este proceso <strong>no se puede deshacer</strong> y no conservamos copias de respaldo
+  recuperables de cuentas eliminadas. Los datos previamente enviados a OpenAI quedan
+  sujetos al periodo de retención de ese proveedor descrito en la sección 4.2.</p>
+  <p>Si tu pareja borra su cuenta, el contenido que ella creó desaparece; el que creaste tú
+  permanece en la tuya.</p>
+
+  <h2>7. Tus derechos</h2>
+  <ul>
+    <li><strong>Acceder</strong> a tus datos — todo tu contenido es visible dentro de la app.</li>
+    <li><strong>Rectificarlos</strong> — puedes editar o eliminar cualquier elemento en
+      cualquier momento.</li>
+    <li><strong>Eliminarlos</strong> — mediante el borrado de cuenta descrito arriba.</li>
+    <li><strong>Retirar tu consentimiento</strong> al procesamiento por IA, sin perder
+      acceso al resto de la app ni a tu contenido.</li>
+    <li><strong>Oponerte o reclamar</strong> — escribiendo a kosmos.app.rd@gmail.com.</li>
+  </ul>
+  <p>Si resides en el Espacio Económico Europeo, el Reino Unido o California, dispones
+  además de los derechos específicos que te reconozca tu legislación local, incluido el
+  derecho a presentar una reclamación ante tu autoridad de protección de datos.</p>
+
+  <h2>8. Seguridad</h2>
+  <p>Toda la comunicación entre la app y nuestros servidores viaja cifrada mediante HTTPS.
+  El acceso a los datos está restringido a nivel de base de datos mediante políticas que
+  garantizan que solo tú —y la pareja que tú hayas vinculado expresamente— podéis acceder a
+  vuestro contenido. Las contraseñas se almacenan cifradas y nadie, incluido el
+  desarrollador, puede leerlas.</p>
+  <p>Ningún sistema es infalible. Si se produjera una brecha de seguridad que afecte a tus
+  datos personales, te lo notificaremos por correo electrónico.</p>
+
+  <h2>9. Menores de edad</h2>
+  <p>Kosmos no está dirigida a menores de 13 años y no recogemos conscientemente datos de
+  menores de esa edad. Si detectamos una cuenta de un menor de 13 años, la eliminaremos.</p>
+
+  <h2>10. Transferencias internacionales</h2>
+  <p>Los proveedores descritos en la sección 4 pueden procesar y almacenar datos en
+  servidores situados fuera de tu país, incluidos los Estados Unidos. Al usar Kosmos
+  aceptas esta transferencia, que se realiza bajo las garantías contractuales de cada
+  proveedor.</p>
+
+  <h2>11. Cambios en esta política</h2>
+  <p>Si modificamos esta política, actualizaremos la fecha del encabezado. Si el cambio
+  afecta de forma significativa a cómo tratamos tus datos, te lo avisaremos dentro de la
+  app antes de que entre en vigor y, cuando la ley lo exija, solicitaremos tu
+  consentimiento de nuevo.</p>
+
+  <h2>12. Contacto</h2>
+  <p>¿Dudas sobre esta política o sobre tus datos? Escribe a
+  <strong>kosmos.app.rd@gmail.com</strong>.</p>
+
+  <!-- ===================== ENGLISH ===================== -->
+  <div class="lang">
+    <div class="brand">Kosmos</div>
+    <h1>Privacy Policy (English)</h1>
+    <p class="meta">Last updated: October 2, 2026 · Version 1.0</p>
+
+    <p>Kosmos is an app for organizing daily life as a couple: tasks, calendar, recipes,
+    memories, personal finances and habits. This policy explains what we collect, why, who
+    we share it with, and how to delete it.</p>
+
+    <div class="box">
+      <p><strong>The short version.</strong> We do not sell your data. We show no ads. We
+      do not track you across other apps or websites, and we use no analytics tools at all.
+      You can delete your account and all of its content from inside the app, without
+      contacting anyone.</p>
+    </div>
+
+    <h2>1. Who is responsible</h2>
+    <p>The data controller is <strong>Carmen Gómez</strong>, holder of the developer
+    account under which Kosmos is published, based in the Dominican Republic. For any
+    privacy matter, write to
+    <strong>kosmos.app.rd@gmail.com</strong>. We respond within 30 days.</p>
+
+    <h2>2. What we collect</h2>
+    <p><strong>Account data:</strong> email address, password (encrypted and managed by our
+    authentication provider — we never see it), and an optional display name and profile
+    photo.</p>
+    <p><strong>Content you create:</strong> tasks, calendar events and reminders; notes and
+    annotations, including voice-dictated ones; recipes, ingredients and shopping lists;
+    photos, memories, albums and associated places; routine logs for gym, study, personal
+    care and reading; business ideas, projects and assistant conversations; and any street
+    addresses you type into team errands. All of this is entered by you — none of it is
+    collected automatically.</p>
+    <p><strong>Financial data:</strong> expenses, budgets and recurring payments that
+    <em>you enter manually</em>. Kosmos does <strong>not</strong> connect to your bank, does
+    not read bank accounts, does not access cards and does not process payments.</p>
+    <p><strong>Camera, photo library and microphone:</strong> accessed only when you
+    explicitly choose to add a photo, or while you actively hold voice dictation. Never in
+    the background.</p>
+    <p><strong>Partner-shared data:</strong> if you link your account with another person,
+    that person can view, edit and delete shared content. This is the core purpose of the
+    app. You can unlink at any time from your profile.</p>
+    <p><strong>Technical data:</strong> your user identifier, record timestamps, and your
+    notification category preferences.</p>
+    <div class="box">
+      <p><strong>Kosmos notifications are local.</strong> They are scheduled and stored on
+      your own device. Kosmos operates <strong>no</strong> push notification server, stores
+      <strong>no</strong> device token, and notification content never leaves your phone.</p>
+    </div>
+    <p>We do <strong>not</strong> collect location — foreground or background — contacts,
+    the system calendar, or advertising identifiers, and we run no background processes.</p>
+
+    <h2>3. How we use it</h2>
+    <p>To operate your account, display and sync your content, share it with your linked
+    partner, schedule the reminders you configured, and — only with your explicit consent —
+    power the AI assistant and dictation features. We do not build advertising profiles,
+    sell data, or train our own AI models on your content.</p>
+
+    <h2>4. Third parties</h2>
+    <p><strong>Supabase Inc.</strong> hosts your account and all of your content, including
+    photos, as a processor acting on our behalf
+    (<a href="https://supabase.com/privacy">supabase.com/privacy</a>).</p>
+    <div class="box">
+      <p><strong>OpenAI, L.L.C. — third-party AI. Requires your explicit opt-in.</strong>
+      Kosmos sends nothing whatsoever to OpenAI until you expressly agree inside the app.
+      If you decline, the assistant and dictation features are disabled and the rest of
+      Kosmos works normally.</p>
+    </div>
+    <p>When you consent, we send OpenAI only the following, and only at the moment you use
+    each feature:</p>
+    <ul>
+      <li><strong>Assistant chat:</strong> your display name (not your email), today's
+        date, up to 5 notes you marked for Kosmos to remember, the last 10 messages of that
+        conversation, and the message you just wrote.</li>
+      <li><strong>Voice dictation:</strong> only the audio file you just recorded, for
+        transcription. Nothing else — no name, no email, no history.</li>
+      <li><strong>Organizing a Library text:</strong> only the passage you selected and the
+        instruction you typed.</li>
+      <li><strong>Study analysis:</strong> the subject name, total logged time, and up to
+        12 session notes for that subject.</li>
+    </ul>
+    <p><strong>Never sent:</strong> your email address, your password, your photos, your
+    memories, your financial records, your calendar, or content from modules you are not
+    actively using with the assistant. Kosmos does not dump your database into the
+    assistant.</p>
+    <p><strong>Regarding your partner's data:</strong> it is not sent automatically. It can
+    only reach OpenAI if you yourself type or dictate it in a conversation with the
+    assistant, or if it already appears in that conversation's last 10 messages or in the
+    notes you asked Kosmos to remember.</p>
+    <p>OpenAI processes this through its commercial API. Under OpenAI's API terms, data
+    sent via the API is not used to train its models and is retained only for a limited
+    period for abuse monitoring before deletion
+    (<a href="https://openai.com/policies/privacy-policy">openai.com/policies/privacy-policy</a>).</p>
+    <div class="box">
+      <p><strong>Withdrawing consent at any time:</strong> open <strong>Profile → Talk to
+      Kosmos</strong> and tap <strong>"No activar" (Don't enable)</strong>. Kosmos then
+      stops sending any data to OpenAI and the assistant and dictation features are
+      disabled. The rest of the app keeps working and you lose none of your content.</p>
+    </div>
+    <p><strong>Google — only if you tap "Trazar ruta" (Plot route).</strong> The team module
+    offers a button to plot a route for a set of errands. If you tap it, your phone opens
+    Google Maps and passes it <strong>the street addresses you typed</strong> into those
+    errands, subject to Google's own policies. Kosmos sends no GPS location, no identity
+    and no other data, and nothing happens unless you tap that button.</p>
+    <p><strong>Apple Inc.</strong> handles app distribution and updates under its own
+    policies.</p>
+    <p>Kosmos integrates <strong>no analytics, usage measurement, crash reporting or
+    advertising tooling of any kind</strong> — no Google Analytics, Firebase, Facebook SDK,
+    Amplitude, Segment, Sentry or equivalents. We share data with no advertising networks,
+    data brokers, insurers, employers or financial institutions, and we never sell or rent
+    personal data.</p>
+
+    <h2>5. Retention</h2>
+    <p>We keep your information for as long as your account exists. There is no automatic
+    deletion for inactivity.</p>
+
+    <h2>6. Deleting your account and data</h2>
+    <div class="box">
+      <p>In the app: <strong>Profile → Delete account</strong>. You confirm with your
+      password. Deletion is immediate, permanent, and requires contacting no one.</p>
+    </div>
+    <p>This permanently erases your profile and credentials, all content you created, all
+    stored photos and files, and your partner link. It cannot be undone and we keep no
+    recoverable backups of deleted accounts. Data previously sent to OpenAI remains subject
+    to that provider's retention period described in section 4. If your partner deletes
+    their account, content they created is removed; content you created remains in yours.</p>
+
+    <h2>7. Your rights</h2>
+    <p>Wherever you live, you may access your data (all of it is visible in the app),
+    correct or delete any item at any time, delete your entire account as described above,
+    withdraw AI consent without losing access to the rest of the app, and contact us to
+    object or complain. EEA, UK and California residents additionally hold the specific
+    rights granted by their local law, including the right to lodge a complaint with their
+    data protection authority.</p>
+
+    <h2>8. Security</h2>
+    <p>All traffic between the app and our servers is encrypted over HTTPS. Database-level
+    access policies ensure that only you — and a partner you have expressly linked — can
+    reach your content. Passwords are stored encrypted and cannot be read by anyone,
+    including the developer. No system is perfect; if a breach affecting your personal data
+    occurs, we will notify you by email.</p>
+
+    <h2>9. Children</h2>
+    <p>Kosmos is not directed to children under 13 and we do not knowingly collect their
+    data. Accounts found to belong to a child under 13 will be deleted.</p>
+
+    <h2>10. International transfers</h2>
+    <p>The providers in section 4 may process and store data on servers outside your
+    country, including in the United States, under their respective contractual
+    safeguards.</p>
+
+    <h2>11. Changes</h2>
+    <p>If we change this policy we will update the date above. For changes that materially
+    affect how we handle your data, we will notify you in the app before they take effect
+    and, where legally required, ask for your consent again.</p>
+
+    <h2>12. Contact</h2>
+    <p>Questions about this policy or your data? Write to
+    <strong>kosmos.app.rd@gmail.com</strong>.</p>
+  </div>
+
+  <footer>
+    Kosmos · Política de Privacidad v1.0 · 2 de octubre de 2026 · kosmos.app.rd@gmail.com
+  </footer>
+
+</div>
+</body>
+</html>
