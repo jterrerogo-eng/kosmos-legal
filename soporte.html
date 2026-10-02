@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Soporte — Kosmos</title>
+<style>
+  :root{
+    --bg:#ffffff; --fg:#14121a; --muted:#5b5668; --line:#e6e3ec;
+    --accent:#6c4df6; --card:#faf9fd;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{ --bg:#0e0c14; --fg:#edeaf4; --muted:#9a93ab; --line:#262232;
+           --accent:#9d85ff; --card:#15121d; }
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0; background:var(--bg); color:var(--fg);
+    font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    -webkit-text-size-adjust:100%;
+  }
+  .wrap{max-width:720px; margin:0 auto; padding:56px 20px 96px}
+  .brand{font-size:13px; letter-spacing:.18em; text-transform:uppercase;
+         color:var(--accent); font-weight:700; margin-bottom:10px}
+  h1{font-size:32px; line-height:1.15; margin:0 0 10px; letter-spacing:-.02em}
+  .lede{color:var(--muted); font-size:17px; margin:0 0 36px}
+  h2{font-size:19px; margin:40px 0 12px; letter-spacing:-.01em;
+     padding-top:10px; border-top:1px solid var(--line)}
+  h3{font-size:16px; margin:24px 0 4px}
+  ul,ol{padding-left:20px; margin:8px 0}
+  li{margin:5px 0}
+  .contact{background:var(--card); border:1px solid var(--line); border-radius:14px;
+           padding:22px; margin:0 0 8px}
+  .contact p{margin:0}
+  .contact .label{font-size:13px; text-transform:uppercase; letter-spacing:.08em;
+                  color:var(--muted); font-weight:600; margin-bottom:8px}
+  .contact a{font-size:20px; font-weight:650; color:var(--accent);
+             text-decoration:none; word-break:break-all}
+  .note{color:var(--muted); font-size:14px; margin-top:10px}
+  strong{font-weight:650}
+  a{color:var(--accent)}
+  footer{margin-top:56px; padding-top:20px; border-top:1px solid var(--line);
+         color:var(--muted); font-size:14px}
+  @media (max-width:520px){ .wrap{padding:36px 16px 72px} h1{font-size:27px} }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="brand">Kosmos</div>
+  <h1>Soporte</h1>
+  <p class="lede">¿Algo no funciona, o no encuentras cómo hacer algo? Escríbenos y
+  respondemos.</p>
+
+  <div class="contact">
+    <p class="label">Contacto</p>
+    <p><a href="mailto:kosmos.app.rd@gmail.com">kosmos.app.rd@gmail.com</a></p>
+  </div>
+  <p class="note">Respondemos en un plazo de 48 horas. Si reportas un problema, cuéntanos
+  qué estabas haciendo cuando ocurrió y en qué pantalla — con eso lo encontramos mucho más
+  rápido.</p>
+
+  <h2>Preguntas frecuentes</h2>
+
+  <h3>¿Cómo conecto mi cuenta con la de mi pareja?</h3>
+  <p>Entra a la pestaña <strong>Pareja</strong>. Una de las dos personas genera un código de
+  invitación y se lo pasa a la otra; la otra lo introduce desde esa misma pestaña. A partir
+  de ese momento comparten tareas, calendario, memorias, fotos, recetas y finanzas.</p>
+  <p>Solo puedes estar conectado con una persona a la vez. Si quieres cambiar, primero
+  desvincula desde <strong>Perfil → Mi pareja → Desvincular</strong>.</p>
+
+  <h3>¿Qué puede ver y hacer mi pareja?</h3>
+  <p>Todo lo del espacio compartido, y puede editarlo. Está hecho así a propósito: la idea
+  es que uno anote algo y el otro lo complete o lo corrija sin tener que pedir permiso.
+  Lo que no es compartido —tu perfil y tus propios ajustes— sigue siendo tuyo.</p>
+
+  <h3>Mi pareja no ve las fotos que subí</h3>
+  <p>Asegúrense de que ambas cuentas estén conectadas (en <strong>Perfil → Mi pareja</strong>
+  debe aparecer su nombre con el estado «Conectados») y de que las dos tengan la última
+  versión de la app instalada. Si aun así no aparecen, escríbenos.</p>
+
+  <h3>No me llegan las notificaciones</h3>
+  <p>Revisa dos sitios:</p>
+  <ol>
+    <li>Dentro de Kosmos: <strong>Perfil → Notificaciones</strong>, y comprueba que
+      «Activar notificaciones» esté encendido junto con las categorías que te interesan.</li>
+    <li>En los Ajustes de tu iPhone: <strong>Ajustes → Notificaciones → Kosmos</strong>,
+      y verifica que estén permitidas.</li>
+  </ol>
+  <p class="note">Si tu teléfono está en silencio, iOS no deja que ninguna app haga sonar
+  los recordatorios. Es una limitación del sistema, no de Kosmos.</p>
+
+  <h3>¿Para qué sirve el asistente y qué datos usa?</h3>
+  <p>El asistente te deja crear tareas, gastos o actividades hablando o escribiendo en
+  lenguaje normal, y puede organizar textos y analizar tus sesiones de estudio. Funciona con
+  tecnología de OpenAI, y por eso <strong>te pide permiso explícito la primera vez</strong>.
+  Si no lo aceptas, el resto de Kosmos funciona igual.</p>
+  <p>Puedes retirar ese permiso cuando quieras en <strong>Perfil → Hablar con Kosmos</strong>,
+  pulsando «No activar». El detalle de qué se envía está en nuestra
+  <a href="./">Política de privacidad</a>.</p>
+
+  <h3>¿Cómo borro mi cuenta?</h3>
+  <p><strong>Perfil → Borrar cuenta.</strong> Te pedirá tu contraseña y te mostrará
+  exactamente qué se va a eliminar antes de confirmar.</p>
+  <p>El borrado es inmediato y definitivo: desaparecen tu perfil, todo tu contenido, todas
+  tus fotos y tu vínculo de pareja. <strong>No se puede deshacer</strong> y no guardamos
+  copias. No hace falta escribirnos ni esperar a que nadie lo apruebe.</p>
+
+  <h3>¿Qué pasa con lo compartido si mi pareja borra su cuenta?</h3>
+  <p>Lo que creó ella desaparece; lo que creaste tú se queda en tu cuenta. La conexión se
+  deshace y quedas libre de vincularte con otra persona.</p>
+
+  <h3>¿Kosmos se conecta a mi banco?</h3>
+  <p>No. El módulo de finanzas funciona con los gastos y presupuestos que tú anotas a mano.
+  Kosmos no accede a cuentas bancarias, ni a tarjetas, ni procesa pagos de ningún tipo.</p>
+
+  <h3>El mapa de Memorias aparece en gris</h3>
+  <p>Esa función todavía no está disponible. La pestaña se queda visible para que sepas que
+  viene, y la activaremos en una próxima versión.</p>
+
+  <h2>Reportar un problema o pedir una función</h2>
+  <p>Escríbenos a <a href="mailto:kosmos.app.rd@gmail.com">kosmos.app.rd@gmail.com</a>.
+  Kosmos es una app pequeña hecha por una sola persona, así que leemos absolutamente todo lo
+  que llega — y buena parte de lo que hay hoy en la app salió de peticiones de quienes la
+  usan.</p>
+
+  <h2>Privacidad</h2>
+  <p>Puedes consultar nuestra <a href="./">Política de privacidad</a> en cualquier momento,
+  también desde dentro de la app en <strong>Perfil → Política de privacidad</strong>.</p>
+
+  <footer>
+    Kosmos · Soporte · kosmos.app.rd@gmail.com
+  </footer>
+
+</div>
+</body>
+</html>
